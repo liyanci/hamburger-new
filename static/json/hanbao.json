@@ -1,0 +1,31 @@
+
+
+	{ 
+"foods1":[
+{
+	 "id":1,"name":"霸王鸡腿皇堡（原味/天椒）","titlt":"CHICKEN WHOPPER/SPICY CHICKEN WHOPPER","imgurl":"/static/images/hanb/hb101.png"},
+	 {"id":2,"name":"德州烟熏安格斯厚牛堡","titlt":"Texas Angus Smokey Beef Burger","imgurl":"/static/images/hanb/hb102.png"
+ }]
+ ,
+ "foods2":[{
+	 "id":1,"name":"皇堡/天椒皇堡","titlt":"whopper/Spicy Whopper ","imgurl":"/static/images/hanb/hb201.png"},
+	 {"id":2,"name":"双层皇堡/天椒皇堡","titlt":"WHOPPER/SPICYWHOPPET-DOUBLE ","imgurl":"/static/images/hanb/hb202.png"},
+	 {"id":3,"name":"三层皇堡/天椒皇堡","titlt":"WHOPPER/SPICYWHOPPET-DOUBLE ","imgurl":"/static/images/hanb/hb203.png"},
+	 {"id":4,"name":"培根芝士皇堡","titlt":"Whopper with Bacon & Cheese ","imgurl":"/static/images/hanb/hb204.png"},
+	 {"id":5,"name":"果木香风味火烤鸡腿堡","titlt":"Fruitwood Flavor Grilled Chicken Burger","imgurl":"/static/images/hanb/hb205.png"},
+	 {"id":6,"name":"香脆鳕鱼堡","titlt":"BK Fish N Crisp Burger ","imgurl":"/static/images/hanb/hb206.png"},
+	 {"id":7,"name":"霸王鸡腿皇堡（原味/天椒）","titlt":"CHICKEN WHOPPER/SPICY CHICKEN WHOPPER","imgurl":"/static/images/hanb/hb207.png"},
+	 {"id":8,"name":"愤怒的皇堡","titlt":"ANGERY WHOPPER","imgurl":"/static/images/hanb/hb208.png"
+ }]
+ ,
+ "foods3":[{
+	 "id":1,"name":"炫辣鸡腿堡","titlt":"Hot & Spicy Chicken Burger","imgurl":"/static/images/hanb/hb301.png"},
+	 {"id":2,"name":"小皇堡/天椒小皇堡","titlt":"whopper junior/spicy whopper junior","imgurl":"/static/images/hanb/hb302.png"},
+	 {"id":3,"name":"美式鸡排堡","titlt":"King Chicken","imgurl":"/static/images/hanb/hb303.jpg"
+
+ }]
+}
+
+
+
+

@@ -1,0 +1,54 @@
+{
+	"status":0,
+	"alldata":[{
+		"data": {
+				"id": 1,
+				"name": "banner01",
+				"imageUrl": "/static/images/banner01.jpg"
+			
+		},
+		"msg": "ok"
+	},
+	{
+		"data": {
+				"id": 2,
+				"name": "banner02",
+				"imageUrl": "/static/images/banner02.jpg"
+				
+		},
+		"msg": "ok"
+	},
+	{
+		"data": {
+				"id": 3,
+				"name": "banner03",
+				"imageUrl": "/static/images/banner03.jpg"
+		},
+		"msg": "ok"
+	},
+	{
+		"data": {
+				"id": 4,
+				"name": "banner04",
+				"imageUrl": "/static/images/banner04.jpg"
+		},
+		"msg": "ok"
+	},
+	
+	{
+		"data": {
+				"id": 5,
+				"name": "banner05",
+				"imageUrl": "/static/images/banner05.jpg"
+		},
+		"msg": "ok"
+	},
+	{
+		"data": {
+				"id": 6,
+				"name": "banner06",
+				"imageUrl": "/static/images/banner06.jpg"
+		},
+		"msg": "ok"
+	}]
+}

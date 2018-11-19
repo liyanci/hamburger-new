@@ -1,0 +1,7 @@
+
+{"foods":[
+	{"id":1,"name":"火炬冰淇淋（香草）","titlt":"ice cream long cone(vanilla)","imgurl":"/static/images/tianp/tp01.png"},
+	{"id":2,"name":"新地（巧克力/草莓）","titlt":"Sundae (chocolate/Strawberry)","imgurl":"/static/images/tianp/tp02.png"},
+	{"id":3,"name":"冰淇淋熔岩黑巧克力蛋糕","titlt":"Dark Chocolate Lava Cake with ice cream","imgurl":"/static/images/tianp/tp03.png"}
+]
+}

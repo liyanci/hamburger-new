@@ -1,0 +1,10 @@
+{"foods":[
+	{"id":1,"name":"纯果乐热带果汁饮料","titlt":"Tropicana Tropical Juice","imgurl":"/static/images/yinl/yl101.png"},
+	{"id":2,"name":"立顿柠檬红茶","titlt":"LIPTON LEMON TEA","imgurl":"/static/images/yinl/yl102.png"},
+	{"id":3,"name":"臻选豆浆/臻选冰豆浆","titlt":"Hot/Ice Soymilk","imgurl":"/static/images/yinl/yl103.png"},
+	{"id":4,"name":"港式奶茶 ","titlt":"Milk Tea ","imgurl":"/static/images/yinl/yl104.png"},
+	{"id":5,"name":"热咖啡","titlt":"hot coffee","imgurl":"/static/images/yinl/yl105.png"},
+	{"id":6,"name":"卡曼橘果泡饮","titlt":"Calamansi Flavor Bubble Drink","imgurl":"/static/images/yinl/yl106.png"}
+
+]
+}

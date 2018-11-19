@@ -1,0 +1,12 @@
+
+{"foods":[
+	{"id":1,"name":"霸王鸡条","titlt":"Chicken Fries ","imgurl":"/static/images/xiaoshi/xs101.png"},
+	{"id":2,"name":"王道川蜀鸡翅","titlt":"Flavor Chicken wing (2pcs)","imgurl":"/static/images/xiaoshi/xs102.png"},
+	{"id":3,"name":"王道椒香鸡腿","titlt":"BONE IN CHICKEN (1pc)","imgurl":"/static/images/xiaoshi/xs103.png"},
+	{"id":4,"name":"薯霸王","titlt":"French Fries ","imgurl":"/static/images/xiaoshi/xs104.png"},
+	{"id":5,"name":"王道嫩香鸡块","titlt":"KING NUGGETS (5pcs)","imgurl":"/static/images/xiaoshi/xs105.png"},
+	{"id":6,"name":"洋葱圈","titlt":"KING ONION RINGS","imgurl":"/static/images/xiaoshi/xs106.png"},
+	{"id":7,"name":"蔬菜色拉","titlt":"Green Salad ","imgurl":"/static/images/xiaoshi/xs107.png"},
+	{"id":8,"name":"棒棒果蔬杯","titlt":"Stick Salad Cup","imgurl":"/static/images/xiaoshi/xs108.png"}
+]
+}

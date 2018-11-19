@@ -1,0 +1,136 @@
+{
+    "foods1": [
+        {
+            "id": 1,
+            "name": "法式火烤猪肉可颂",
+            "titlt": "Grilled Pork Croissant",
+            "imgurl": "/static/images/zaoc/zc101.png"
+        },
+        {
+            "id": 2,
+            "name": "法式猪肉蛋包芝士可颂",
+            "titlt": "Pork & Egg wrap Cheese Croissant",
+            "imgurl": "/static/images/zaoc/zc102.png"
+        },
+        {
+            "id": 3,
+            "name": "培根蛋包芝士堡",
+            "titlt": "Bacon & Egg Wrap Cheese Burger",
+            "imgurl": "/static/images/zaoc/zc103.png"
+        },
+        {
+            "id": 4,
+            "name": "火烤猪肉堡",
+            "titlt": "Grilled Pork Burger",
+            "imgurl": "/static/images/zaoc/zc104.png"
+        },
+        {
+            "id": 5,
+            "name": "美式双料鸡肉卷",
+            "titlt": "American Double Chicken Roll",
+            "imgurl": "/static/images/zaoc/zc105.png"
+        },
+        {
+            "id": 6,
+            "name": "培根蛋包卷",
+            "titlt": "Bacon Egg Wrap",
+            "imgurl": "/static/images/zaoc/zc106.png"
+        },
+        {
+            "id": 7,
+            "name": "火烤猪肉蛋包全麦卷",
+            "titlt": "Grilled Pork Egg Whole Wheat Roll",
+            "imgurl": "/static/images/zaoc/zc107.png"
+        },
+        {
+            "id": 8,
+            "name": "皇堡",
+            "titlt": "WHOPPER",
+            "imgurl": "/static/images/zaoc/zc108.png"
+        },
+        {
+            "id": 9,
+            "name": "小皇堡",
+            "titlt": "WHOPPER Jr.",
+            "imgurl": "/static/images/zaoc/zc109.png"
+        },
+        {
+            "id": 10,
+            "name": "法式煎蛋猪肉芝士堡",
+            "titlt": "Omelete Pork Cheese Burger",
+            "imgurl": "/static/images/zaoc/zc110.png"
+        },
+        {
+            "id": 11,
+            "name": "法式煎蛋培根芝士可颂",
+            "titlt": "Omelete Bacon Cheese Croissant ",
+            "imgurl": "/static/images/zaoc/zc111.png"
+        },
+        {
+            "id": 12,
+            "name": "脆鸡蛋包芝士堡",
+            "titlt": "Chicken & Egg Wrap Cheese Burger ",
+            "imgurl": "/static/images/zaoc/zc112.png"
+        }
+    ],
+    "foods2": [
+        {
+            "id": 1,
+            "name": "港式奶茶 ",
+            "titlt": "Milk Tea",
+            "imgurl": "/static//images/zaoc/zc201.png"
+        },
+        {
+            "id": 2,
+            "name": "臻选豆浆",
+            "titlt": "Hot Soyamilk",
+            "imgurl": "/static/images/zaoc/zc202.png"
+        },
+        {
+            "id": 3,
+            "name": "热咖啡",
+            "titlt": "Hot Coffee",
+            "imgurl": "/static/images/zaoc/zc203.png"
+        },
+        {
+            "id": 4,
+            "name": "立顿热红茶",
+            "titlt": "LIPTON HOT TEA",
+            "imgurl": "/static/images/zaoc/zc204.png"
+        },
+        {
+            "id": 5,
+            "name": "纯果乐热带果汁饮料",
+            "titlt": "Tropicana Tropical Juice",
+            "imgurl": "/static/images/zaoc/zc205.png"
+        },
+        {
+            "id": 6,
+            "name": "立顿柠檬红茶",
+            "titlt": "Lipton Lemon Tea",
+            "imgurl": "/static/images/zaoc/zc206.png"
+        }
+    ],
+    "id": "Z003",
+    "name": "早餐",
+    "foods3": [
+        {
+            "id": 1,
+            "name": "薯饼",
+            "titlt": "HASH BROWN",
+            "imgurl": "/static/images/zaoc/zc301.png"
+        },
+        {
+            "id": 2,
+            "name": "美式松饼（3片）",
+            "titlt": "Pancake（3pc）",
+            "imgurl": "/static/images/zaoc/zc302.png"
+        },
+        {
+            "id": 3,
+            "name": " 西班牙式吉纳圈（5片）",
+            "titlt": " Churros（5pc） ",
+            "imgurl": "/static/images/zaoc/zc303.png"
+        }
+    ]
+}

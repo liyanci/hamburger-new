@@ -1,0 +1,35 @@
+{
+	"data":[{
+				"id": 1,
+				"name": "有意加大在华投资 汉堡王中国董事会主席来中国看市场",
+				"time":"2018-06-12",
+				"imageUrl": "/static/images/news01.jpg",
+				"path":"/detail01"
+			
+			},
+			{
+				"id": 2,
+				"name": "春节不“尬过”，“留守歪果仁”春节处境尴尬 汉堡王出招随手拯救“歪果仁”",
+				"time":"2018-04-26",
+				"imageUrl": "/static/images/news02.jpg",
+				"path":"/detail02"
+				
+			},
+			{
+				"id": 3,
+				"name": "红T台搬进餐厅里 女王节汉堡王出大招宠出“女王范”",
+				"time":"2018-04-26",
+				"imageUrl": "/static/images/news03.jpg",
+				"path":"/detail03"
+				
+			},
+			{
+				"id": 4,
+				"name": "汉堡王斩获“2017中国最具发展潜力雇主” 发展前景是吸引人才的核心",
+				"time":"2018-04-16",
+				"imageUrl": "/static/images/news04.jpg",
+				"path":"/detail04"
+				
+			}
+			]
+}

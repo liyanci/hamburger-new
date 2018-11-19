@@ -1,0 +1,6 @@
+{"id":"T001","name":"套餐","foods":[{
+	 "id":1,"name":"小皇堡套餐","titlt":"whopper junior meal","imgurl":"/static/images/taoc/tc01.png"},
+	 {"id":2,"name":"美式鸡排堡套餐","titlt":"KING CHICKEN MEAL","imgurl":"/static/images/taoc/tc02.png"},
+	 {"id":3,"name":"炫辣鸡腿堡套餐","titlt":"hot & spicy chicken burger meal","imgurl":"/static/images/taoc/tc03.png"
+ }]
+}

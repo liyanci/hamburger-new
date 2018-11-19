@@ -1,0 +1,48 @@
+{
+ "allmenu":[{
+		 "id":"H001",
+		 "name":"汉堡",
+		 "titlt":"BURGERS",
+		 "path":"/hanbao",
+		 "imgurl":"/static/images/menu/hanbao.png"
+			},
+			{
+			"id":"H002",
+			"name":"超值套餐",
+			"titlt":"VALUE MEAL",
+			"path":"/taocan",
+			"imgurl":"/static/images/menu/taocan.png"
+			},
+		    {
+			"id":"H003",
+			"name":"早餐",
+			"titlt":"BREAKFAST",
+			"path":"/zaocan",
+			"imgurl":"/static/images/menu/zaocan.png"
+			},
+		    {
+			"id":"H004",
+			"name":"小食",
+			"titlt":"SIDES",
+			"path":"/xiaoshi",
+			"imgurl":"/static/images/menu/xiaoshi.png"
+			},
+		    {
+			"id":"H005",
+			"name":"甜品",
+			"titlt":"DESSERTS & SMOOTHIES",
+			"path":"/tianpin",
+			"imgurl":"/static/images/menu/tp.png"
+			},
+		    {
+			"id":"H006",
+			"name":"饮料",
+			"titlt":"BEVERAGES",
+			"path":"/yinliao",
+			"imgurl":"/static/images/menu/yl.png"
+			}	
+ ]
+}
+
+
+
