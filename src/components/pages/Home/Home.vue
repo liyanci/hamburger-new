@@ -20,13 +20,13 @@
 				<img src="http://bkchina.cn/website/mobile/images/main-map.jpg"/>
 				<div class="map-search">
 					<input type="text" name="" id="" value="" placeholder="请输入地址" class="find-city"/>
-					<input type="button" name="" id="" value="" class="map-search-btn"/>
+					<input type="button" name="" id="" value="" @click="goMap" class="map-search-btn"/>
 				</div>
 				
 			</div>
 			<div class="howMake" v-for='(item,index) in list2' :key='index'>
 				<img :src="item" alt=""/>
-				<a>查看详情</a>
+				<a @click="godetail(index)">查看详情</a>
 			</div>
 			<div class="main-last">
 				<img src="/static/images/main-4.jpg" alt="" />
@@ -57,6 +57,17 @@
 			}
 		},
 		methods: {
+			godetail(index){
+				if(index==0){
+					this.$router.push({path:'/HowMake'})
+				}
+				else{
+					this.$router.push({path:'/Biaozhun'})
+				}
+			},
+			goMap(){
+				this.$router.push({path:'/Map'})
+			},
 			getBanner() {
 				console.log(this)
 				this.$axios.get('/static/json/banner.json', {
@@ -96,8 +107,7 @@
 	@import '../../../styles/main.less';
 	@import '../../../../node_modules/swiper/dist/css/swiper.css';
 	.Home {
-		position:position;
-		z-index:1;
+		position:relative;
 		.padding(60,0,0,0);
 		.banner{
 			.h(356);

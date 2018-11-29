@@ -5,7 +5,7 @@
 			<!--<img src="../../../images/line-y.png"/>-->
 			<ul class="box1">
 				<li v-for="(item1,index) in hlist1" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item1.imgurl" />
 						<span>{{item1.name}}</span>
 						<strong>{{item1.titlt}}</strong>
@@ -15,7 +15,7 @@
 
 			<ul class="box2">
 				<li v-for="(item2,index) in hlist2" :key="index">
-					<a href="#">
+					<a>
 						<img :src="item2.imgurl" />
 						<span>{{item2.name}}</span>
 						<strong>{{item2.titlt}}</strong>
@@ -25,7 +25,7 @@
 			
 			<ul class="box3">
 				<li v-for="(item3,index) in hlist3" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item3.imgurl" />
 						<span>{{item3.name}}</span>
 						<strong>{{item3.titlt}}</strong>
@@ -87,13 +87,13 @@
 <style lang="less" scoped>
 	@import '../../../styles/main.less';
 	.Hanbao{
-		.margin(60,0,0,0);
+		.padding(0,0,0,0);
 		position:relative;
 		h3{
 			.w(200);
 			.h(50);
 			/*text-algin:center;*/
-			.margin(20,0,20,0);
+			.margin(30,0,20,0);
 			position:absolute;
 			top:-2.1rem;
 			left:3.5rem;
@@ -105,7 +105,8 @@
 		}
 		
 		.box{
-			.h(2890);
+			overflow:hidden;
+			.h(2800);
 			.w(375);
 			margin-top:135px;
 			.box1{

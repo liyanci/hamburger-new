@@ -4,7 +4,7 @@
 			<p>新闻中心</p>
 		</div>
 		<ul>
-			<li v-for="(item,index) in list" @click="goDetail(item.path)">
+			<li v-for="(item,index) in list" v-if="index>=snum&&index<bnum" @click="goDetail(item.path)">
 				<div class="left">
 					<p>{{item.name}}</p><span>{{item.time}}</span>
 				</div>
@@ -13,11 +13,15 @@
 				</div>
 			</li>
 		</ul>
+		<div class="pages">
+			<button @click="back">上一页</button><span id="infoSize">4</span>条记录<span id="pageNum"><span id="current-page">1</span>/<span id="allpage">1</span></span>页<button @click="go">下一页</button>
+		</div>
 		<pageFooter></pageFooter>
 	</div>
 </template>
 
 <script>
+	import $ from 'jquery'
 	import Vue from 'vue'
 	import pageFooter from '../../commons/pageFooter'
 	export default {
@@ -25,29 +29,61 @@
 		components: {pageFooter},
 		data() {
 			return {
-				list:[]
+				list:[],
+				bnum:4,
+				snum:0
 			}
 		},
-		methods:{getAbout() {
+		methods:{
+			go(){
+				this.bnum=this.bnum+4
+				this.snum=this.snum+4
+				if(this.bnum>8){
+					this.bnum=8
+					this.snum=4
+				}
+			},
+			back(){
+				this.bnum=this.bnum-4
+				this.snum=this.snum-4
+				if(this.snum<0||this.bnum<4){
+					this.snum=0
+					this.bnum=4
+				}
+			},
+			getAbout() {
 				this.$axios.get('/static/json/news.json', {
-						params: {
-						}
+						params: {}
 					})
 					.then((res) => {
-						console.log(res.data)
+//						console.log(res.data)
 						this.list = res.data
+						var infoSize=this.list.length;
+						$('#infoSize').html(infoSize);
+						var allpage=infoSize/4
+						$('#allpage').html(allpage);
+						var currentPge=this.bnum/4;
+						if(currentPge<1){
+							currentPge=1
+						};
+//						console.log(currentPge)
+						$('#current-page').html(currentPge);
 					})
 					.catch((err) => {
 						console.log(err)
 					})
 				},
 			goDetail(path){
-				this.$router.push({ path:path, params: { userId: 123 }})
+				this.$router.push({ path:path, params: {}})
 			}
 		},
 		created() {
 			this.getAbout()
+		},
+		updated(){
+			this.getAbout()
 		}
+		
 		
 		
 	}
@@ -70,7 +106,7 @@
 				}
 			}
 			ul{
-				.h(700);
+				.padding(0,0,50,0);
 				li{
 					box-sizing:border-box;
 					.padding(29,13,9,25);
@@ -104,6 +140,14 @@
 				}
 				
 			}
-	
+		.pages{
+			.fs(14);
+			.margin(0,0,20,0);
+			button{
+				background: #fff;
+				.margin(0,5,0,5);
+				border:1px solid #ccc;
+			}
+		}
 	}
 </style>

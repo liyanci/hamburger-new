@@ -30,6 +30,34 @@
 				"imageUrl": "/static/images/news04.jpg",
 				"path":"/detail04"
 				
+			},
+			{
+				"id": 5,
+				"name": "有意加大在华投资 汉堡王中国董事会主席来中国看市场",
+				"time":"2018-06-12",
+				"imageUrl": "/static/images/news01.jpg",
+				"path":""
+			},
+			{
+				"id": 5,
+				"name": "有意加大在华投资 汉堡王中国董事会主席来中国看市场",
+				"time":"2018-06-12",
+				"imageUrl": "/static/images/news01.jpg",
+				"path":""
+			},
+			{
+				"id": 5,
+				"name": "有意加大在华投资 汉堡王中国董事会主席来中国看市场",
+				"time":"2018-06-12",
+				"imageUrl": "/static/images/news01.jpg",
+				"path":""
+			},
+			{
+				"id": 5,
+				"name": "有意加大在华投资 汉堡王中国董事会主席来中国看市场",
+				"time":"2018-06-12",
+				"imageUrl": "/static/images/news01.jpg",
+				"path":""
 			}
 			]
 }

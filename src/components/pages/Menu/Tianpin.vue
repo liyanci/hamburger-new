@@ -5,7 +5,7 @@
 			<!--<img src="../../../images/line-y.png"/>-->
 			<ul>
 				<li v-for="(item,index) in tlist" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item.imgurl" />
 						<span>{{item.name}}</span>
 						<strong>{{item.titlt}}</strong>
@@ -64,7 +64,7 @@
 	@import '../../../styles/main.less';
 	
 	.Tianpin{
-		.margin(60,0,0,0);
+		.padding(0,0,0,0);
 		position:relative;
 		h3{
 			.w(200);
@@ -81,8 +81,8 @@
 			}
 		}
 		.box{
-			
-			.h(500);
+			overflow:hidden;
+			.h(450);
 			.w(355);
 			.margin(126,10,24,10);
 			background: #fff;

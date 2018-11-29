@@ -1,10 +1,11 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import '../node_modules/animate.css/animate.css'
+import '../node_modules/animate.css/animate.min.css'
 import Vue from 'vue'
 import App from './App'
-//import jqury from 'jquery'
+import jquery from 'jquery'
 import router from './router/index.js'
+import store from './store/index.js'
 
 
 //引入axios
@@ -25,6 +26,7 @@ Axios.interceptors.response.use(function (response) {
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
