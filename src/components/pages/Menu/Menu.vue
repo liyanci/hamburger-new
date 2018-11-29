@@ -2,15 +2,14 @@
 	<div class="Menu">
 		<div class="contain">
 			<ul>
-				<li @click="goPage1(item.path)" v-for="(item,index) in menulist" :key="index">
-					<a href="#">
+				<li @click="goPage1(item.path,index)" v-for="(item,index) in menulist" :key="index">
+					<a>
 						<img :src="item.imgurl" />
 						<span>{{item.name}}</span>
 						<strong>{{item.titlt}}</strong>
 					</a>
 				</li>
 			</ul>
-
 		</div>
 		<pageFooter></pageFooter>
 	</div>
@@ -34,25 +33,25 @@
 			}
 		},
 		methods: {
-			goPage1(path) {
+			goPage1(path,index) {
 				this.$emit('open');
-				this.$router.push({
-					path: path,
-					params: {
-						id: "heh"
-					}
-				})
-				console.log(this.$route);
+//				this.$router.push({
+//					path:path,
+//					params: {id:index
+//					}
+//				})
+				this.$router.replace('menu-datail'+path)
 			},
 
 			getFoodlist() {
-				console.log(this)
+//				console.log(this)
 				this.$axios.get('/static/json/menu.json', {
-						params: {}
+						params: {id: "id"}
 					})
 					.then((res) => {
 						console.log(res)
-						this.menulist = this.menulist.concat(res.allmenu)
+//						this.menulist = this.menulist.concat(res.allmenu)
+						this.menulist = res.allmenu
 					})
 					.catch((err) => {
 						console.log(err)
@@ -71,12 +70,12 @@
 <style lang="less" scoped>
 	@import '../../../styles/main.less';
 	.Menu {
-		.margin(60, 0, 0, 0);
+		.padding(60, 0, 0, 0);
 		position:relative;
 		.contain {
 			.h(765);
 			.w(355);
-			.margin(50, 10, 24, 10);
+			.margin(0, 10, 24, 10);
 			background: #fff;
 			box-sizing:border-box;
 			background: url("../../../images/line-y.png");

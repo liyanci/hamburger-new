@@ -5,7 +5,7 @@
 			<!--<img src="../../../images/line-y.png"/>-->
 			<ul>
 				<li v-for="(item,index) in xlist" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item.imgurl" />
 						<span>{{item.name}}</span>
 						<strong>{{item.titlt}}</strong>
@@ -63,7 +63,7 @@
 <style lang="less" scoped>
 	@import '../../../styles/main.less';
 	.Xiaoshi{
-		.margin(60,0,0,0);
+		.padding(0,0,0,0);
 		position:relative;
 		h3{
 			.w(200);
@@ -80,8 +80,8 @@
 			}
 		}
 		.box{
-			
-			.h(1000);
+			overflow:hidden;
+			.h(900);
 			.w(355);
 			.margin(126,10,24,10);
 			background: #fff;

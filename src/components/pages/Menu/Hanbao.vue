@@ -5,7 +5,7 @@
 			<!--<img src="../../../images/line-y.png"/>-->
 			<ul class="box1">
 				<li v-for="(item1,index) in hlist1" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item1.imgurl" />
 						<span>{{item1.name}}</span>
 						<strong>{{item1.titlt}}</strong>
@@ -15,7 +15,7 @@
 
 			<ul class="box2">
 				<li v-for="(item2,index) in hlist2" :key="index">
-					<a href="#">
+					<a>
 						<img :src="item2.imgurl" />
 						<span>{{item2.name}}</span>
 						<strong>{{item2.titlt}}</strong>
@@ -25,7 +25,7 @@
 			
 			<ul class="box3">
 				<li v-for="(item3,index) in hlist3" :key="index">
-					<a href="#">
+					<a >
 						<img :src="item3.imgurl" />
 						<span>{{item3.name}}</span>
 						<strong>{{item3.titlt}}</strong>
@@ -59,7 +59,9 @@
 			getHanblist() {
 				console.log(this)
 				this.$axios.get('/static/json/hanbao.json', {
-						params: {}
+						params: {
+//							name:'nameValue'
+						}
 					})
 					.then((res) => {
 						console.log(res)
@@ -75,7 +77,7 @@
 			}
 		},
 		mounted() {
-
+//				this.$route.params
 		},
 		created() {
 			this.getHanblist()
@@ -87,13 +89,13 @@
 <style lang="less" scoped>
 	@import '../../../styles/main.less';
 	.Hanbao{
-		.margin(60,0,0,0);
+		.padding(0,0,0,0);
 		position:relative;
 		h3{
 			.w(200);
 			.h(50);
 			/*text-algin:center;*/
-			.margin(20,0,20,0);
+			.margin(30,0,20,0);
 			position:absolute;
 			top:-2.1rem;
 			left:3.5rem;
@@ -105,13 +107,14 @@
 		}
 		
 		.box{
-			.h(1790);
+			overflow:hidden;
+			.h(1700);
 			.w(375);
 			margin-top:135px;
 			.box1{
 				.h(250);
 				.w(355);
-				.margin(24,10,24,10);
+				.margin(0,10,24,10);
 				/*.padding(30,0,0,0);*/
 				background: #fff;
 				box-sizing:border-box;
@@ -163,7 +166,8 @@
 			}
 			/*2*/
 			.box2{
-				.h(1000);
+				overflow:hidden;
+				.h(940);
 				.w(355);
 				.margin(24,10,24,10);
 				background: #fff;
