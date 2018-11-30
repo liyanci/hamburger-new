@@ -56,14 +56,14 @@
 		.h(468.5);
 		background:#fff;
 		z-index:1;
-				li{
+		li{
 			.padding(0,0,0,15);
 			.h(55);
 			.lh(55);
 			border-bottom:0.05rem solid #6f1924;
 			color: @ft-color;
 			font-weight:bold;
-			.fs(26);
+			.fs(20);
 			text-align:left;
 		}
 	}

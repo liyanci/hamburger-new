@@ -7,12 +7,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state:{
+  	login:false
   },
   mutations:{
     //更改state 里的数据的方法
     changeLogin(state,val1){
       console.log(val1)
-
       state.login=val1
     },
     changeSliderShow(state,val){

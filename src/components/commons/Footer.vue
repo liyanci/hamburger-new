@@ -2,7 +2,7 @@
 	<div class="Footer">
 		<router-link to='/coupons'><img src="/static/images/menu-1.png"/><span>当季优惠</span></router-link>
 		<router-link to='/menu'><img src="/static/images/menu-2.png"/><span>发现菜单</span></router-link>
-		<a><img src="/static/images/menu-3.png"/><span>会员有礼</span></a>
+		<router-link to='/login'><img src="/static/images/menu-3.png"/><span>会员有礼</span></router-link>
 	</div>
 </template>
 

@@ -28,6 +28,10 @@ import Recruit from '../components/pages/recruit/Recruit'
 import Recruit2 from '../components/pages/recruit/Recruit2'
 import Recruit3 from '../components/pages/recruit/Recruit3'
 import Recruit4 from '../components/pages/recruit/Recruit4'
+//登录
+import Login from '../components/login/Login'
+//注册
+import Reg from '../components/reg/Reg'
 Vue.use(Router)
 
 export default new Router({
@@ -150,6 +154,19 @@ export default new Router({
       name: 'Recruit4',
       component:Recruit4
     },
+    //登录
+    {
+				path: '/login',
+			  name: 'Login',
+			  component: Login    
+	  	},
+    //注册
+    {
+				path: '/reg',
+			  name: 'Reg',
+			  component: Reg    
+	  	},
+    
 //  {
 //  	path:'/Map',
 //  	name:'/Map',
